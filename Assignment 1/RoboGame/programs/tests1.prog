@@ -1,0 +1,10 @@
+while(gt(fuelLeft, 0)){
+    move;
+    turnR;
+    if(gt(fuelLeft, 95)){
+        shieldOn;
+    }
+    if(lt(fuelLeft, 85)){
+        shieldOff;
+    }
+}

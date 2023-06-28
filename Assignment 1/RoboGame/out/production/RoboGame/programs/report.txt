@@ -1,0 +1,19 @@
+Stage 0:
+I had trouble initially getting started with the program. I attempted implementing an AST tree first for the nodes and parser, however I could not figure out how to do it.
+In the end I consulted the lecture notes and the ad hoc tutorial, and I was able to get started with the program. I was able to get the parser working by following the full structure
+of the tree, creating a parser method and node for each non terminal.
+
+Stage 1:
+With my knowledge of stage 0 it became easier to wrap my head around this next stage and implement it. Initially I had trouble with figuring out how to implement integers and boolean nodes.
+I was getting confused with the types of variables and whether a node should be an integer or a boolean. I was able to figure it out by looking at the lecture notes and the writing down a process.
+I was able to implement the nodes and parser for the integer and boolean nodes. I was also able to implement the nodes and parser for the arithmetic and boolean expressions.
+
+Stage 2:
+With stage 2 it was a bit different. Initially in stage 1 I would skip some nodes of the tree that I deemed uneccesary in order to make my code more efficient and easier. However,
+I quickly realised with this stage that I may need some of those nodes. In the end after a lot of trial and error I was able to implement this full stage.
+
+Stage 3:
+I initially started to implement the variables and assignment statements. One problem I had at first was wrapping my head around how we could use a map for this implementation. I was unsure where to create map
+values and where to check if the variable was already in the map. In the end I figured out the problem through lots of debugging. I also came across the issue of actually finding a variable token. I mistakingly
+thought the regex for a variable was straight on the assignment page, but I realised I had to create one. To implement elif it required me using my code which i already created for the else statement, while
+my code isn't the most efficient it works for this part. Adding the optional arguments to barrelLR and barrelFB was as simple as copying my code from the move and wait statements.

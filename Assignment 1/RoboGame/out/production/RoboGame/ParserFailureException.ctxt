@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=ParserFailureException
+comment1.params=msg
+comment1.target=ParserFailureException(java.lang.String)
+numComments=2

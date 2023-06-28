@@ -1,0 +1,6 @@
+move;
+turnL;
+move;
+turnR;
+wait;
+takeFuel;
